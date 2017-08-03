@@ -1,0 +1,229 @@
+fileFormatVersion: 2
+guid: 17b4c0460fa919e4aa3bc57a106aca5b
+timeCreated: 1501757794
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: _ihadlo
+    100002: Cylinder01
+    100004: Cylinder02
+    100006: hlava
+    100008: k__dlo_zadn__01
+    100010: noha_01
+    100012: noha_02
+    100014: noha_03
+    100016: noha_04
+    100018: noha_07
+    100020: noha_08
+    100022: p_edn__k__dlo_01
+    100024: p_edn__k__dlo_02
+    100026: sos_k
+    100028: //RootNode
+    100030: Sphere01
+    100032: Sphere02
+    100034: Sphere03
+    100036: Sphere04
+    100038: Sphere05
+    100040: Sphere06
+    100042: Sphere07
+    100044: Sphere08
+    100046: Sphere10
+    100048: Sphere11
+    100050: Sphere12
+    100052: Sphere14
+    100054: t_lo
+    100056: trycht__ek
+    100058: zadn__k__dlo_02
+    400000: _ihadlo
+    400002: Cylinder01
+    400004: Cylinder02
+    400006: hlava
+    400008: k__dlo_zadn__01
+    400010: noha_01
+    400012: noha_02
+    400014: noha_03
+    400016: noha_04
+    400018: noha_07
+    400020: noha_08
+    400022: p_edn__k__dlo_01
+    400024: p_edn__k__dlo_02
+    400026: sos_k
+    400028: //RootNode
+    400030: Sphere01
+    400032: Sphere02
+    400034: Sphere03
+    400036: Sphere04
+    400038: Sphere05
+    400040: Sphere06
+    400042: Sphere07
+    400044: Sphere08
+    400046: Sphere10
+    400048: Sphere11
+    400050: Sphere12
+    400052: Sphere14
+    400054: t_lo
+    400056: trycht__ek
+    400058: zadn__k__dlo_02
+    2300000: _ihadlo
+    2300002: Cylinder01
+    2300004: Cylinder02
+    2300006: hlava
+    2300008: k__dlo_zadn__01
+    2300010: noha_01
+    2300012: noha_02
+    2300014: noha_03
+    2300016: noha_04
+    2300018: noha_07
+    2300020: noha_08
+    2300022: p_edn__k__dlo_01
+    2300024: p_edn__k__dlo_02
+    2300026: sos_k
+    2300028: Sphere01
+    2300030: Sphere02
+    2300032: Sphere03
+    2300034: Sphere04
+    2300036: Sphere05
+    2300038: Sphere06
+    2300040: Sphere07
+    2300042: Sphere08
+    2300044: Sphere10
+    2300046: Sphere11
+    2300048: Sphere12
+    2300050: Sphere14
+    2300052: t_lo
+    2300054: trycht__ek
+    2300056: zadn__k__dlo_02
+    3300000: _ihadlo
+    3300002: Cylinder01
+    3300004: Cylinder02
+    3300006: hlava
+    3300008: k__dlo_zadn__01
+    3300010: noha_01
+    3300012: noha_02
+    3300014: noha_03
+    3300016: noha_04
+    3300018: noha_07
+    3300020: noha_08
+    3300022: p_edn__k__dlo_01
+    3300024: p_edn__k__dlo_02
+    3300026: sos_k
+    3300028: Sphere01
+    3300030: Sphere02
+    3300032: Sphere03
+    3300034: Sphere04
+    3300036: Sphere05
+    3300038: Sphere06
+    3300040: Sphere07
+    3300042: Sphere08
+    3300044: Sphere10
+    3300046: Sphere11
+    3300048: Sphere12
+    3300050: Sphere14
+    3300052: t_lo
+    3300054: trycht__ek
+    3300056: zadn__k__dlo_02
+    4300000: Cylinder01
+    4300002: Cylinder02
+    4300004: hlava
+    4300006: k__dlo_zadn__01
+    4300008: noha_01
+    4300010: noha_02
+    4300012: noha_03
+    4300014: noha_04
+    4300016: noha_07
+    4300018: noha_08
+    4300020: p_edn__k__dlo_01
+    4300022: p_edn__k__dlo_02
+    4300024: sos_k
+    4300026: Sphere01
+    4300028: Sphere02
+    4300030: Sphere03
+    4300032: Sphere04
+    4300034: Sphere05
+    4300036: Sphere06
+    4300038: Sphere07
+    4300040: Sphere08
+    4300042: Sphere10
+    4300044: Sphere11
+    4300046: Sphere12
+    4300048: Sphere14
+    4300050: trycht__ek
+    4300052: t_lo
+    4300054: zadn__k__dlo_02
+    4300056: _ihadlo
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
