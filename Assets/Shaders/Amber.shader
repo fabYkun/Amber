@@ -16,7 +16,7 @@ Shader "Custom/Amber"
 	SubShader
 	{
 		Tags { "Queue"="Transparent" "IgnoreProjector"="True" "RenderType"="Opaque" }
-		GrabPass { }
+		GrabPass { "_BackgroundTexture" }
 
 		Pass
 		{
@@ -59,7 +59,7 @@ Shader "Custom/Amber"
 				return o;
 			}
 			
-			sampler2D									_GrabTexture;
+			sampler2D									_BackgroundTexture;
 			float4										_GrabTexture_TexelSize;
 			float										_Blur;
 			fixed4										_Color;
@@ -79,7 +79,7 @@ Shader "Custom/Amber"
 				float3 lightColor = lerp(_LightColor0.rgb, _Color.rgb, _Thickness);
 
 				// saturate => avoids bright pixels (HDR)
-				#define ADDPIXEL(weight,kernelY) saturate(tex2Dproj(_GrabTexture, UNITY_PROJ_COORD(float4(i.uv.x, i.uv.y + _GrabTexture_TexelSize.y * kernelY * _Blur * ndotv, i.uv.z, i.uv.w)))) * weight
+				#define ADDPIXEL(weight,kernelY) saturate(tex2Dproj(_BackgroundTexture, UNITY_PROJ_COORD(float4(i.uv.x, i.uv.y + _GrabTexture_TexelSize.y * kernelY * _Blur * ndotv, i.uv.z, i.uv.w)))) * weight
 				
 				pixelCol += ADDPIXEL(0.05, 4.0);
 				pixelCol += ADDPIXEL(0.09, 3.0);
@@ -97,8 +97,9 @@ Shader "Custom/Amber"
 			}
 			ENDCG
 		}
-		GrabPass { }
 		
+		GrabPass{ }
+
 		Pass
 		{
 			Cull Back
@@ -138,7 +139,7 @@ Shader "Custom/Amber"
 			{
 				v2f o;
 				o.pos = UnityObjectToClipPos(v.vertex);
-				o.uv = v.texcoord * float4(_MainTex_ST.xy, 0,0) + float4(_MainTex_ST.zw, 0,0);
+				o.uv = UnityStereoScreenSpaceUVAdjust(v.texcoord, _MainTex_ST);
 				o.bguv = ComputeGrabScreenPos(o.pos);
 				o.normal = UnityObjectToWorldNormal(v.normal); // normal in worldspace
 				o.viewDir = normalize(UnityWorldSpaceViewDir(mul(unity_ObjectToWorld, v.vertex)));
